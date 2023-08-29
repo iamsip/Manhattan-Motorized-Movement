@@ -1,21 +1,19 @@
-Overview:
-This repository contains a MATLAB function that simulates the Manhattan movement model, which is a popular mobility model typically used to represent the movement of mobile nodes in urban areas.
+This repository contains a MATLAB function simulating the Manhattan movement model. It's a mobility model primarily for urban areas, replicating the grid-like movement of vehicles in cities.
 
-Function Description:
+Function:
 manhattan(position, rxHeight)
 
-This function generates a Manhattan movement model for a given node. The movement is based on typical vehicle speeds in an urban environment, with turns being made at right angles to represent the grid-like structure of roads in a Manhattan-style city layout.
+This function replicates the movement based on typical urban vehicle speeds with right-angle turns, encapsulating the grid-based city layout.
 
-Inputs:
-position: A structure that contains the current position, distance traveled in the current direction, and other parameters necessary for the mobility model.
+Parameters:
 
-rxHeight: The height of the receiving node or device.
+position: A structure detailing the current position and other vital mobility metrics.
+rxHeight: Receiver node/device height.
+Return:
 
-Outputs:
-position: An updated structure that contains the new position after the movement, the total distance traveled in the current direction, and other updated parameters.
-
+position: An updated structure with new positional information post-movement.
 Usage:
-Make sure you have the myPackageConstant function or package that provides necessary constants for the movement model.
+Ensure the myPackageConstant function or its package variant is available, providing necessary constants.
+Invoke the manhattan function with the appropriate inputs.
 
-Call the manhattan function with the required inputs.
 
