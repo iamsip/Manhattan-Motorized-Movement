@@ -1,12 +1,12 @@
-#Manhattan Mobility Model: Motorized Movement
+# Manhattan Mobility Model: Motorized Movement
 This repository contains a MATLAB function simulating the Manhattan movement model. It's a mobility model primarily for urban areas, replicating the grid-like movement of vehicles in cities.
 
-##Function:
+## Function:
 manhattan(position, rxHeight)
 
 This function replicates the movement based on typical urban vehicle speeds with right-angle turns, encapsulating the grid-based city layout.
 
-##Parameters:
+## Parameters:
 
 position: A structure detailing the current position and other vital mobility metrics.
 rxHeight: Receiver node/device height.
